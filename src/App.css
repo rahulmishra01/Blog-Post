@@ -1,0 +1,104 @@
+.App {
+  max-width: 1700px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.nev-bg
+{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(20, 138, 83) 0%, rgb(168, 18, 101) 35%, rgb(18, 56, 160) 100%);
+  padding: 1rem;
+  border-radius: 6px;
+}
+.navbar img 
+{
+  width: 5%;
+  position: absolute;
+  margin-top: 0.3rem;
+  border-radius: 10px; 
+}
+.navbar .link 
+{
+  position: relative;
+  top: 1px;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 85%;
+  text-decoration: none;
+}
+.navbar .tlink
+{
+  position: relative;
+  top: 22px;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 90%;
+  text-decoration: none;
+}
+.back{
+  background-image: url("../public/blog1.jpg");
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.box-text{
+  
+  font-size: 72px;
+  background: -webkit-linear-gradient(rgb(182, 8, 81), rgb(41, 7, 230),rgb(233, 5, 36));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navbar .nev-bg
+{
+  margin-bottom: 0.6rem;
+}
+.navbar h3
+{
+  margin-top: -1.7rem;
+  margin-left: 8rem;
+ color: #fff;
+}
+.blog-post
+{
+  border: 2px solid #b3b0a507;
+  margin-top: 17px;
+ 
+  box-shadow: 2px 4px 10px 1px;
+  padding: 1rem;
+}
+.blog-post img 
+{
+  width: 100%;
+  
+}
+.blog-post h1 
+{
+  font-weight: 900;
+  font-size: 65px;
+}
+.Post 
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Post > .blog-post 
+{
+  width:25%;
+}
+.blog-post h1 
+{
+  font-size: 50px;
+}
